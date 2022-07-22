@@ -1,0 +1,15 @@
+:root {
+    --darkTheme: black; 
+    --lightTheme: white;
+    --padSpaceSm: 50px;
+}
+.header {
+    padding: var(--padSpaceSm);
+    background-color: var(--darkTheme);
+    color: var(--lightTheme);
+    text-align: right;    
+}
+.aboutMe {
+    padding: var(--padSpaceSm);
+
+}
