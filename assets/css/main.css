@@ -1,15 +1,29 @@
 :root {
-    --darkTheme: black; 
-    --lightTheme: white;
+    --primaryColor: black; 
+    --secondaryColor: white;
+    --linkSubColor: gray;
     --padSpaceSm: 50px;
 }
+
+section {
+    padding: var(--padSpaceSm)
+}
+a {
+    color: var(--linkSubColor);
+}
 .header {
-    padding: var(--padSpaceSm);
-    background-color: var(--darkTheme);
-    color: var(--lightTheme);
+    background-color: var(--primaryColor);
+    color: var(--secondaryColor);
     text-align: right;    
 }
-.aboutMe {
-    padding: var(--padSpaceSm);
-
+.description {
+width: 25%;
+height: 100%;
+float: left;
+border-right: 10px;
+height: 100%;
+}
+.descriptionText {
+    width: 75%; 
+    float: right;   
 }
