@@ -1,37 +1,94 @@
-## Welcome to GitHub Pages
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Anthony Samani - Full Stack Developer</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+  </head>
 
-You can use the [editor on GitHub](https://github.com/SamaniTheCEO/svmvni.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+  <body>
+    <!--navbar starts here-->
+    <nav>
+        <ul class="navList">    
+            <li class="navItem">
+                <a href="#contact" class="navLink">Contact</a>
+            </li>
+            <li class="navItem">
+                <a href="#work" class="navLink">Work</a>
+            </li>
+            <li class="navItem">
+                <a href="#aboutMe" class="navLink">About</a>
+            </li>
+        </ul>
+    </nav>
+    <!--navbar ends here-->
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <!--header starts here-->
+    <div class="header">
+        <h3>Problem Solver</h3>
+    </div>
+    <!--Main page starts here -->
+    <section id="#aboutMe">
+       <h1 class="headerDescription">About Me</h1>
+        <div class="descriptionText">
+            <p>Hello World! My name is Anthony Samani. I love spending time with my family, learning about technology, and financial literacy.</p>
+            <p>I am currently based out of Salt Lake City, Utah continuing my journey as a Full Stack Developer.</p>
+        </div>
+    </section>
 
-### Markdown
+    <section id="work">
+        <h1 class="headerDescription">Work</h1>
+        <div class="workContainer"> 
+            <h1>Main</h1>
+            <div class="projContainer">
+                <div class="projLabel">
+                    <h3>Personal Website</h3>
+                </div>
+            <img id="proj1" src="assets\imgs\ales-nesetril-Im7lZjxeLhg-unsplash.jpg" alt="Main Project Portfolio Piece Picture">
+        </div>
+            <h1>Sub</h1>
+           <div class="row" style="display: flex;">
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+     
+            <div class="projContainer">
+                <div class="projLabel">
+                    <h5>Data Analytics Tool</h5>
+                </div>
+                <img class="subProj" src="assets\imgs\luke-chesser-JKUTrJ4vK00-unsplash.jpg" alt=""></div>
+            <div class="projContainer">
+                <div class="projLabel">
+                    <h5>Personal Blog</h5>
+                </div>
+                <img class="subProj" src="assets\imgs\emile-perron-xrVDYZRGdw4-unsplash.jpg" alt=""></div>
+           
+            <div class="projContainer">
+                <div class="projLabel">
+                    <h5>Marketing Campaign Research</h5>
+                </div>
+                <img class="subProj" src="assets\imgs\christina-wocintechchat-com-tYVkjjMYFBo-unsplash.jpg" alt=""></div>
+            <div class="projContainer">
+                <div class="projLabel">
+                    <h5>Brand Identity</h5>
+                </div>
+                <img class="subProj" src="assets\imgs\pankaj-patel-Ylk5n_nd9dA-unsplash.jpg" alt="">
+            </div>
+            </div>
+            <!--<img class="subProj" src="assets\imgs\luke-chesser-JKUTrJ4vK00-unsplash.jpg" alt="">
+            <img class="subProj" src="assets\imgs\emile-perron-xrVDYZRGdw4-unsplash.jpg" alt="">
+            <br>
+            <img class="subProj" src="assets\imgs\christina-wocintechchat-com-tYVkjjMYFBo-unsplash.jpg" alt="">
+            <img class="subProj" src="assets\imgs\pankaj-patel-Ylk5n_nd9dA-unsplash.jpg" alt="">-->
+      
+    </div>
+    </section>
+    <section id="contact">
+        <h1 class="headerDescription">Contact</h1>
+        <p class="contactItems">Email - Hello@Email.com</p>
+        <p class="contactItems"> (555)555-5555</p>
+        <p class="contactItems"><a href="#">GitHub</a></p>
+    </section>
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SamaniTheCEO/svmvni.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+  </body>
+</html>
