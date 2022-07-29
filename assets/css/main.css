@@ -18,8 +18,7 @@ body {
 section {
     display: flex;
     padding: 10px;
-    margin-left: 15%;
-    flex-wrap: wrap;
+    flex-wrap: no-wrap;
 }
 
 /*individualized styling starts here */
@@ -61,7 +60,9 @@ a.navLink {
     border-right: 5px solid black;
     text-align: right;
     justify-content: left;
+    margin-left: 15%;
 }
+.desc
 
 #proj1 {
     height: 500px;
@@ -70,9 +71,32 @@ a.navLink {
 }
 
 .subProj {
-  height: 150px;
-  width: auto;
+    height: 150px;
+    width: auto;
 }
 .contactItems {
-    min-width: 
+    display:inline-block;
+}
+.projContainer {
+    position: relative;
+}
+img {
+    max-width: 100%;
+    height:auto;
+    position: relative;
+    border: 5px black solid;
+}
+img:hover {
+    opacity: 0.5;
+}
+.projLabel {
+    position: absolute; 
+    color: white; 
+    z-index:1;
+    bottom:20%; 
+    background-color: gray;
+    opacity: 0.9;
+    margin: 0;
+
+    border: 2px black solid;
 }
